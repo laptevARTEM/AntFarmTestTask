@@ -1,0 +1,306 @@
+html {
+  background: #FEFBF9;
+}
+.main-content {
+  margin-left: 100px;
+  margin-right: 110px;
+}
+body {
+  margin: 0;
+}
+.header {
+  margin-left: 100px;
+  margin-right: 110px;
+  border-bottom: 1px solid #9DB1B0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .phone-block {
+  align-self: center;
+}
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-content .book-block {
+  align-self: center;
+}
+.header .header-content .book-block .book-button {
+  color: #AE8B70;
+  font-family: 'Avenir Next Cyr';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10000px;
+  border: 1px solid #AE8B70;
+  background: none;
+}
+.logo-block .hotel-logo {
+  color: #AE8B70;
+  font-family: 'Caravan';
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+}
+.main-banner {
+  padding-top: 100px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 171px;
+}
+.main-banner .main-banner-text {
+  margin: 0;
+  z-index: 1;
+  color: #293C39;
+  font-family: 'Cormorant Garamond';
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85px;
+  text-transform: uppercase;
+}
+.main-banner .main-banner-text.main-banner-title-place {
+  margin-left: 211px;
+}
+.main-banner .logo-block {
+  margin-left: -320px;
+  z-index: 1;
+}
+.elips {
+  margin-top: -35px;
+  margin-left: -250px;
+  width: 532.355px;
+  height: 203.392px;
+  transform: rotate(-9.535deg);
+  flex-shrink: 0;
+  border-radius: 270px / 100px;
+  border: 1px solid #AE8B70;
+}
+.inputs-block {
+  margin-top: 100px;
+}
+.inputs-block .users-data-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.inputs-block .users-data-inputs .input-block {
+  position: relative;
+}
+.inputs-block .users-data-inputs .input-block .label {
+  color: #293C39;
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -30px;
+  left: -5px;
+  background: #fff;
+  padding: 0 5px;
+}
+.inputs-block .users-data-inputs .input-block .input {
+  color: #293C39;
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 280px;
+  border: none;
+  border-bottom: 1px solid #293C39;
+}
+.inputs-block .users-data-inputs .input-block .input:focus {
+  outline: none;
+}
+.inputs-block .book-block {
+  margin-top: 73px;
+  text-align: center;
+}
+.inputs-block .book-block .book-button {
+  width: 260px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 10000px;
+  background: #AE8B70;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Avenir Next Cyr';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.second-banner {
+  display: flex;
+  margin-top: 200px;
+}
+.second-banner .second-banner-text {
+  margin: 0;
+  z-index: 1;
+  color: #293C39;
+  font-family: Cormorant Garamond;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.second-banner .second-banner-text.second-banner-title-book {
+  margin-left: 105px;
+}
+.second-banner .elips {
+  margin-top: -30px;
+  margin-left: -260px;
+  border-radius: 230px / 100px;
+  width: 362.288px;
+  height: 150.738px;
+  transform: rotate(-9.535deg);
+}
+.second-banner .your-part-block {
+  margin-top: -10px;
+  margin-left: -285px;
+}
+.second-banner .your-part-block .your-part {
+  color: #AE8B70;
+  font-family: 'Caravan';
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85px;
+}
+.books-table-block {
+  margin-top: 65px;
+}
+.books-table-block .table {
+  width: 100%;
+}
+.books-table-block .table th {
+  height: 20px;
+  color: #9DB1B0;
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.books-table-block .table th.arrival-date-header {
+  width: 215px;
+}
+.books-table-block .table th.departure-date-header {
+  width: 200px;
+}
+.books-table-block .table th.status-header {
+  width: 267px;
+}
+.books-table-block .table th.remove-header {
+  width: 82px;
+}
+.books-table-block .table td {
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.books-table-block .table td.arrivale-date,
+.books-table-block .table td.departure-date {
+  color: #293C39;
+}
+.books-table-block .table td.status {
+  color: #26B69F;
+}
+.books-table-block .table tbody tr {
+  height: 60px;
+}
+.footer {
+  background: #293C39;
+  padding-left: 100px;
+  padding-right: 110px;
+}
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-content .logo-block {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.footer .footer-content .logo-block .hotel-logo {
+  color: #FFF;
+}
+.footer .footer-content .book-block {
+  margin-top: 53px;
+}
+.footer .footer-content .book-block .book-button {
+  width: 200px;
+  height: 50px;
+  background: none;
+  border-radius: 10000px;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.footer .footer-content .contacts-block {
+  margin-top: 50px;
+}
+.footer .footer-content .contacts-block svg {
+  width: 14px;
+  height: 14px;
+}
+.footer .footer-content .contacts-block span {
+  color: #FFF;
+  font-family: 'Avenir Next Cyr';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px;
+}
+.book-button,
+td.remove > svg {
+  cursor: pointer;
+}
+.status-input {
+  border: none;
+  font-family: 'Avenir Next Cyr';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #26B69F;
+}
+.status-input:focus {
+  outline: none;
+}
+.save-btn {
+  color: #AE8B70;
+  font-family: 'Avenir Next Cyr';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10000px;
+  border: 1px solid #AE8B70;
+  background: none;
+}
+.admin th {
+  width: auto !important;
+}
+
